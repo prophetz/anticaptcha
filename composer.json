@@ -1,0 +1,21 @@
+{
+  "name": "prophetz/anticaptcha",
+  "description": "Anticaptcha library",
+  "version":"1.0.1",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexander Kovalevich",
+      "email": "kpuzuc@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-0": {
+      "Prophetz\\Anticaptcha\\": "src/"
+    }
+  }
+}
