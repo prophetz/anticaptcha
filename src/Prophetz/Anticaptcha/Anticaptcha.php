@@ -2,17 +2,17 @@
 
 namespace Prophetz\Anticaptcha;
 
-use Prophetz\Anticaptcha\Client\AbstractClient;
+use Prophetz\Anticaptcha\Client\AnticaptchaClient;
 use Prophetz\Curl\Curl;
 
 class Anticaptcha
 {
     /** @var Curl */
     private $curl;
-    /** @var  AbstractClient */
+    /** @var  AnticaptchaClient */
     private $client;
 
-    public function __construct(Curl $curl, AbstractClient $client)
+    public function __construct(Curl $curl, AnticaptchaClient $client)
     {
         $this->curl = $curl;
         $this->client = $client;

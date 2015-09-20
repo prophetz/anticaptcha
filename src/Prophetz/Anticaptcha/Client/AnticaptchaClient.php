@@ -3,7 +3,7 @@
 namespace Prophetz\Anticaptcha\Client;
 
 
-abstract class AbstractClient
+abstract class AnticaptchaClient
 {
     /**
      * @var string
