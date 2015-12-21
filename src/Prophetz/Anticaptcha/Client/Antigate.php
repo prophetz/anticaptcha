@@ -2,7 +2,7 @@
 
 namespace Prophetz\Anticaptcha\Client;
 
-class Antigate extends AbstractClient
+class Antigate extends AnticaptchaClient
 {
     private $domain = 'antigate.com';
 }
