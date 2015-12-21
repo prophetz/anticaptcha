@@ -9,7 +9,7 @@
       "email": "kpuzuc@gmail.com"
     }
   ],
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "require": {
     "php": ">=5.4",
     "prophetz/curl": "dev-master"
